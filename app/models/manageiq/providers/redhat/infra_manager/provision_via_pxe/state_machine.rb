@@ -16,6 +16,7 @@ module ManageIQ::Providers::Redhat::InfraManager::ProvisionViaPxe::StateMachine
     end
   end
 
+
   def create_pxe_configuration_file
     message = "Generating PXE and Customization Files on PXE Server"
     _log.info("#{message} #{for_destination}")
